@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#page{
+    height: 288em;
+    width: auto;
+    background-color: blueviolet;
+}
+#header{
+    text-align: center;
+    padding: 7em 5em 4em 5em;
+    text-size-adjust: 100%;
+}
+#nav{ 
+
+    margin-right:6em;
+    margin-left: 6em;
+    padding: 8px;
+    background-color: antiquewhite;
+    vertical-align: middle;
+    color: brown;
+    border-top-left-radius: 0.8em; 
+    border-top-right-radius: 0.8em;
+   
+}
+#nav ul{
+    margin: 1em;
+    padding: 1em ;
+    list-style: none;
+}
+#nav ul li{ 
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    font-family:inherit ;
+    /* text-decoration-line: none; */
+
+}
+#nav ul li .active{
+    border-radius: 1em;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+}
+#nav ul li a{
+   margin: 0.6em;
+   color: black;
+   text-decoration-line: none;
+
+}
+.main{
+    margin-left: 6em;
+    margin-right: 6em;
+    background-color: white; 
+    text-align: center;
+    padding: 4em;
+}
+.income form .form-group {  
+    height: 50px;
+    width: 650px;
+    background-color:white  ;
+    display: flex;
+    justify-content:space-around;
+    align-self: center;
+    align-items: center;
+}
+
+.income form .form-group input[type="text"]{
+    height: 35px;
+    width: 360px;
+    background-color: #0e1a18;
+    border: none;
+    outline: none;
+    border-bottom:  2em soild #000;
+    font-size: 1.6rem;
+    color: rebeccapurple;
+    text-align: center;
+
+}
+.income form .form-group input[type="submit"]{
+    
+    height: 35px;
+    width: 360px;
+    background-color: #0e1a18;
+    border: none;
+    outline: none;
+    border-bottom:  3px  soild #000;
+    font-size: 1.6rem;
+    color: rebeccapurple;
+    text-align: center;
+    }
+.content{
+    margin-left: 6em;
+    margin-right: 6em;
+    background-color: white; 
+    padding: 4em;
+    font-family: inherit;
+    font-size: medium;
+}
+.content ol li{
+    font-family: inherit;
+    font-size: medium
+    ;
+}
+.term{
+    margin-left: 5.4em;
+    margin-right: 5.4em;
+    background-color: white; 
+    padding: 4em;
+    font-family: inherit;
+    font-size:large;
+}
